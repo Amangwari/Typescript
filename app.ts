@@ -1,4 +1,3 @@
-
 // ==> Primitve types in ts
 var a = 12;
 let b = 34;
