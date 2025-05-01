@@ -83,4 +83,20 @@ class AlbumMaker {
 let music3 = new AlbumMaker("Tum se hi", "KK", 3, "Melody", false, false);
 let music4 = new AlbumMaker("Bawe", "Raftaar, Badshah", 4, "Desi hip hop", true, true);
 // -> This keyword
-console.log("THIS KEYWORD");
+console.log("---THIS KEYWORD---");
+class Abcd {
+    constructor() {
+        this.name = "aman";
+    }
+    changeSomeStuff() {
+        console.log(this.name);
+        this.changeSomeMoreStuff();
+    }
+    changeSomeMoreStuff() {
+        console.log("hey");
+        let a = "20";
+        console.log(a);
+    }
+}
+let aman = new Abcd(); // Object is created
+aman.changeSomeStuff(); // Now the method is called

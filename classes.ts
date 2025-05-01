@@ -89,4 +89,22 @@ let music4 = new AlbumMaker("Bawe", "Raftaar, Badshah", 4, "Desi hip hop", true,
 
 
 // -> This keyword
-console.log("THIS KEYWORD")
+console.log("---THIS KEYWORD---");
+class Abcd {
+    name = "aman";
+
+    changeSomeStuff() {
+        console.log(this.name);
+        this.changeSomeMoreStuff();
+    }
+
+    changeSomeMoreStuff() {
+        console.log("hey");
+        let a = "20";
+        console.log(a);
+    }
+}
+
+let aman = new Abcd();     // Object is created
+aman.changeSomeStuff();    // Now the method is called
+
