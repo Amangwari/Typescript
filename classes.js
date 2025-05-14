@@ -109,4 +109,5 @@ class BoxMaker {
 }
 let b12 = new BoxMaker("Miltion");
 console.log(b12);
+s;
 console.log("---Access Modifiers (public, private , protected)---");
