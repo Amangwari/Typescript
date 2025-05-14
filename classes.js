@@ -100,3 +100,13 @@ class Abcd {
 }
 let aman = new Abcd(); // Object is created
 aman.changeSomeStuff(); // Now the method is called
+// -> Access Modifiers (public, private , protected)
+console.log("---Access Modifiers (public, private , protected)---");
+class BoxMaker {
+    constructor(name) {
+        this.name = name;
+    }
+}
+let b12 = new BoxMaker("Miltion");
+console.log(b12);
+console.log("---Access Modifiers (public, private , protected)---");
