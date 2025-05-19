@@ -102,12 +102,18 @@ let aman = new Abcd(); // Object is created
 aman.changeSomeStuff(); // Now the method is called
 // -> Access Modifiers (public, private , protected)
 console.log("---Access Modifiers (public, private , protected)---");
+// Private
 class BoxMaker {
     constructor(name) {
         this.name = name;
+        this.name = name;
+    }
+    changing() {
+        this.name = "Aman";
     }
 }
 let b12 = new BoxMaker("Miltion");
 console.log(b12);
-s;
+// let b13 = new BoxMaker("milton");
+b12.changing();
 console.log("---Access Modifiers (public, private , protected)---");
